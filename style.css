@@ -1,0 +1,35 @@
+body {
+  font-family: "Oswald", sans-serif;
+  font-weight: 300;
+  font-size: 1.625rem;
+  color: #232323;
+  margin: 0;
+}
+
+.container {
+  padding: 0 2rem;
+  max-width: 62.5rem;
+  margin: 0 auto;
+}
+
+article {
+  margin: 2em 0;
+  padding: 2em;
+  box-shadow: 0 0 2rem -0.5rem rgba(0, 0, 0, 0.5);
+}
+
+.juice-image {
+  width: 250px;
+  float: left;
+  /* shape-outside: url(half-orange-min.png); */
+  /* shape-outside: circle(50%); */
+  /* shape-outside: ellipse(50% 50%); */
+  shape-outside: polygon(0px 0px, 78.87% 31px, 92.96% 109px, 86.96% 72.64%, 66.53% 88.86%, 41.2% 98.13%);
+  /* shape-margin: 1rem; */
+  margin-right: 2rem;
+}
+
+.plant-hero {
+  background: #e6ffe0;
+  padding: 5rem 0 0;
+}
